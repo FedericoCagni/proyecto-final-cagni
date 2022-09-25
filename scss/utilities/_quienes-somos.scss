@@ -1,0 +1,33 @@
+.quienes__container {
+    display: flex;
+    flex-direction: column;
+
+    .quienes__item {
+        display: flex;
+        flex-direction: row;
+
+        .quienes__texto {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            
+
+            p {
+                font-size: 1.5rem;
+                padding-left: 20px;
+                margin-top: 5px;
+            }
+        }
+
+        .quienes__img {
+            align-items: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+
+            img {
+                border: 5px solid grey;
+            }
+        }
+    }
+}
