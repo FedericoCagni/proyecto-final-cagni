@@ -217,7 +217,8 @@ footer .wajapen img {
   bottom: 9rem;
   right: 1rem;
   box-sizing: border-box;
-  position: fixed; }
+  position: fixed;
+  z-index: 2; }
 
 footer p {
   margin-bottom: 20px;
